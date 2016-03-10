@@ -2,10 +2,10 @@
 <widget id="app.css.tabs" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>tabs</name>
   <description>
-        Testing by students Uqam An Ionic Framework and Cordova project.
+        Gerer la admon des immuebles.
     </description>
   <author email="you@example.com" href="http://example.com.com/">
-      UQAM 
+      UQAM Etudiants
     </author>
   <content src="index.html"/>
   <access origin="*"/>
