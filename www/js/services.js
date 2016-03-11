@@ -4,32 +4,29 @@ angular.module('starter.services', [])
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
-  var houses = [{
-    id: 0,
-    name: 'test ben test',
-    lastText: 'You on your way?',
-    face: 'img/ben.png'
-  }, {
-    id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'img/max.png'
-  }, {
-    id: 2,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'img/adam.jpg'
-  }, {
-    id: 3,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'img/perry.png'
-  }, {
-    id: 4,
-    name: 'Mike Harrington',
-    lastText: 'This is wicked good ice cream.',
-    face: 'img/mike.png'
-  }];
+  var houses = [
+                  {
+
+                    id:0,
+                    adr: "755 54e Av, Lachine",
+                    Description:"Maison bien entretenue et bien éclairer avec 3 chambres à coucher avec garage. À proximité de tous les services. Porte-patio dans la salle à manger qui donne accès à la galerie arrière et au jardin mature. Les écoles, parcs et transports en commun sont facilement accessible à pied. Tous les planchers sont en bois franc. Des rénovations récentes ont été exécuté sur le toit, le système de chauffage, les fenêtres, la salle de bain, le foyer au propane, le chauffe-eau et le cabanon.",
+                    img:"img/101.jpg",
+                    prix:399000,
+                    type:"Maison Unifamiliale",
+                    nbCh:3,
+                    nbSb:1
+                  },
+                  {
+                    id:1,
+                    adr: "755 54e Av, Lachine",
+                    Description:"Maison bien entretenue et bien éclairer avec 3 chambres à coucher avec garage. À proximité de tous les services. Porte-patio dans la salle à manger qui donne accès à la galerie arrière et au jardin mature. Les écoles, parcs et transports en commun sont facilement accessible à pied. Tous les planchers sont en bois franc. Des rénovations récentes ont été exécuté sur le toit, le système de chauffage, les fenêtres, la salle de bain, le foyer au propane, le chauffe-eau et le cabanon.",
+                    img:"img/201.jpg",
+                    prix:399000,
+                    type:"Maison Unifamiliale",
+                    nbCh:3,
+                    nbSb:1
+                  }
+                ];
 
   return {
     all: function() {
