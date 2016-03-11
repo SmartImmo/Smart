@@ -10,18 +10,24 @@
 <ion-view view-title="{{house.type}}">
   <ion-content >
 
-      <ion-slide-box class="slide-box" on-slide-changed="slideHasChanged($index)" >
+      <ion-slide-box class="slide-box" on-slide-changed="slideHasChanged(2)" >
 
         <ion-slide class="slide-box" ng-repeat="img in house.imgL"  >
 
-            <img class="slide-box__image" ng-src="{{img}}" >
+            <img class="slide-box_image" ng-src="{{img}}" >
 
         </ion-slide>
 
       </ion-slide-box>
-
+    <ion-gallery ion-gallery-items="house.imgL"></ion-gallery>
     <ion-slide  ng-repeat="(key, value ) in house">
-     <p><h2 class="h2_title">{{key}}</H2>    <hr> {{value}}</p>
+      <p>
+        <div id="div_id_{{key}}">
+          <h3 class="h2_title" >{{key}}</h3>
+          <hr>
+          {{value}}
+        </div>
+      </p>
     </ion-slide>
   </ion-content>
  </ion-view>

@@ -1,10 +1,14 @@
 <ion-view view-title="House">
   <ion-content>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="house in houses" type="item-text-wrap" href="#/tab/houses/{{house.code}}">
-        <img ng-src="{{house.imgS[0]}}">
-        <h2>{{house.type}}, {{house.nbCh}} ch, {{house.nbSb}} sb  <span class="algnleft" style="float:right"> Prix: {{house.prix}}</span></></h2>
-        <p>{{house.adresse}}</p>
+      <ion-item class="item-remove-animate  item-icon-right" ng-repeat="house in houses" type="item-text-wrap" href="#/tab/houses/{{house.Code}}">
+        <img ng-src="{{house.imgS[0]}}" class="float_left" />
+        <div class="float_left margin_left">
+          <p class="text_color_blue">{{house.Type}}, {{house.Nombre_des_chambres}} ch, {{house.Nombre_des_salles_de_bain}} sb </p>
+          <p>{{house.Adresse}}</p>
+          <p>{{house.Ville}}</p>
+          <p class="text_color_green"> Prix: {{house.Prix}}</p>
+        </div>
         <i class="icon ion-chevron-right icon-accessory"></i>
 
         <ion-option-button class="button-assertive" ng-click="remove(house)">

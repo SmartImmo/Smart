@@ -4,17 +4,50 @@
   width: 100%;
   text-align: center;
   align: center;
+  float:center;
 }
 
-.slide-box__image{
+.slide-box_image{
   vertical-align: middle;
-  height: 100%;
-  width: 100%;
+  height: 50%;
+  width: 50%;
   align: center;
+  float:center;
 }
 
 .h2_title{
   vertical-align: middle;
-  font-size:200%;
+  font-size:150%;
   color: blue;
+}
+
+#div_id_imgL{
+ display: none;
+}
+#div_id_imgS{
+ display: none;
+}
+#div_id_Code{
+ display: none;
+}
+#div_id_Latitude{
+ display: none;
+}
+#div_id_Longtitude{
+ display: none;
+}
+.float_left{
+  float: left;
+}
+
+.margin_left{
+  margin-left: 20px;
+}
+
+.text_color_blue{
+  color: blue;
+}
+
+.text_color_green{
+  color: green;
 }
