@@ -3,13 +3,25 @@
   'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
   The FriendsCtrl pulls data from the Friends service (service.js)
   The Friends service returns an array of friend data
+  <ion-item class="item-remove-animate " ng-repeat="img in house.imgL" >
+     </ion-item>
 -->
 
 <ion-view view-title="{{house.type}}">
-  <ion-content class="padding">
-    <ion-item class="item-remove-animate " ng-repeat="img in house.imgL" >
-      <img ng-src="{{img}}" style="width: 100%; height: 100%">
-    </ion-item>
-    <p> {{house.description}}  </p>
-   </ion-content>
+  <ion-content >
+
+      <ion-slide-box class="slide-box" on-slide-changed="slideHasChanged($index)" >
+
+        <ion-slide class="slide-box" ng-repeat="img in house.imgL"  >
+
+            <img class="slide-box__image" ng-src="{{img}}" >
+
+        </ion-slide>
+
+      </ion-slide-box>
+
+    <ion-slide  ng-repeat="(key, value ) in house">
+     <p><h2 class="h2_title">{{key}}</H2>    <hr> {{value}}</p>
+    </ion-slide>
+  </ion-content>
  </ion-view>
