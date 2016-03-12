@@ -20,11 +20,11 @@
     <ion-gallery ion-gallery-items="house.imgL"></ion-gallery>
     <ion-slide  ng-repeat="(key, value ) in house">
       <p>
-        <div id="div_id_{{key}}">
-          <h3 class="h2_title" >{{key}}</h3>
+        <span id="div_id_{{key}}">
+          <h4 class="h2_title" >{{key}}</h4>
           <hr>
           {{value}}
-        </div>
+        </span>
       </p>
     </ion-slide>
   </ion-content>

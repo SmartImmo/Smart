@@ -28,7 +28,8 @@ angular.module('starter.services', [])
                                       	[
                                           "https://s3.amazonaws.com/smartimmo/img/large/1/101.jpg",
                                           "https://s3.amazonaws.com/smartimmo/img/large/1/102.jpg",
-                                          "https://s3.amazonaws.com/smartimmo/img/large/1/103.jpg"
+                                          "https://s3.amazonaws.com/smartimmo/img/large/1/103.jpg",
+                                          "https://s3.amazonaws.com/smartimmo/img/large/1/104.jpg"
                                         ],
                       "imgS":
                                         [
@@ -69,13 +70,15 @@ angular.module('starter.services', [])
                                            [
                                               "https://s3.amazonaws.com/smartimmo/img/large/2/201.jpg",
                                               "https://s3.amazonaws.com/smartimmo/img/large/2/202.jpg",
-                                              "https://s3.amazonaws.com/smartimmo/img/large/2/203.jpg"
+                                              "https://s3.amazonaws.com/smartimmo/img/large/2/203.jpg",
+                                              "https://s3.amazonaws.com/smartimmo/img/large/2/204.jpg"
                                             ],
                       "imgS":
                                            [
                                               "https://s3.amazonaws.com/smartimmo/img/small/2/201.jpg",
                                               "https://s3.amazonaws.com/smartimmo/img/small/2/202.jpg",
-                                              "https://s3.amazonaws.com/smartimmo/img/small/2/203.jpg"
+                                              "https://s3.amazonaws.com/smartimmo/img/small/2/203.jpg",
+
                                             ],
                       "Latitude":"45.5290597",
                       "Longtitude":"-73.5937183"
@@ -104,6 +107,7 @@ angular.module('starter.services', [])
                                         [
                                           "https://s3.amazonaws.com/smartimmo/img/large/3/301.jpg",
                                           "https://s3.amazonaws.com/smartimmo/img/large/3/302.jpg",
+                                          "https://s3.amazonaws.com/smartimmo/img/large/3/303.jpg",
                                           "https://s3.amazonaws.com/smartimmo/img/large/3/303.jpg"
                                         ],
                       "imgS":
@@ -144,7 +148,8 @@ angular.module('starter.services', [])
                                         [
                                           "https://s3.amazonaws.com/smartimmo/img/large/4/401.jpg",
                                           "https://s3.amazonaws.com/smartimmo/img/large/4/402.jpg",
-                                          "https://s3.amazonaws.com/smartimmo/img/large/4/403.jpg"
+                                          "https://s3.amazonaws.com/smartimmo/img/large/4/403.jpg",
+                                          "https://s3.amazonaws.com/smartimmo/img/large/4/404.jpg"
                                         ],
                        "imgS":
                                         [
@@ -178,7 +183,8 @@ angular.module('starter.services', [])
                                         [
                                           "https://s3.amazonaws.com/smartimmo/img/large/5/501.jpg",
                                           "https://s3.amazonaws.com/smartimmo/img/large/5/502.jpg",
-                                          "https://s3.amazonaws.com/smartimmo/img/large/5/503.jpg"
+                                          "https://s3.amazonaws.com/smartimmo/img/large/5/503.jpg",
+                                          "https://s3.amazonaws.com/smartimmo/img/large/5/504.jpg"
                                         ],
                         "imgS":
                                         [

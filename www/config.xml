@@ -2,13 +2,10 @@
 <widget id="app.css.tabs" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>tabs</name>
   <description>
-        An Ionic Framework and Cordova project testing by Uqam students .
+    SmartImmo est une application mobile pour une agence immobilière qui permet aux clients (acheteurs potentiels)  de consulter les différentes offres disponible pour acheter (photos, description de la propriété, carte,.. ). Aussi, elle permet à l’agent immobilier de publier une offres de vente.
     </description>
   <author email="naceur.mhenni@gmail.com">
-        Naceur Mhenni
-        Fabian Ocampo
-        Ishak Zobiri
-        Fehmi Ben Salah
+    Naceur Mhenni,Ishak Zobiri,Ben Salah Fahmi,Fabian Ocampo
   </author>
 
   <content src="index.html"/>
